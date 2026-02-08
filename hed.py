@@ -1780,8 +1780,8 @@ def show_stats():
 def show_server_info(local_ip, httpd):
     print(f"\n\033[94m[🌐] SERVER INFORMATION:\033[0m")
     print(f"\033[90m{'═' * 55}\033[0m")
-    print(f"\033[92mLocal URL:    \033[97mhttp://127.0.0.1:{PORT}\033[0m")
-    print(f"\033[92mNetwork URL:  \033[97mhttp://{local_ip}:{PORT}\033[0m")
+    print(f"\033[92mRedirect URL:    \033[97mhttp://127.0.0.1:{PORT}\033[0m")
+    print(f"\033[92medirect URL2:  \033[97mhttp://{local_ip}:{PORT}\033[0m")
     print(f"\033[92mCurrent Page: \033[97m{HexPhisherHandler.services.get(HexPhisherHandler.current_service, 'Unknown')}\033[0m")
     print(f"\033[92mLog File:     \033[97m{LOG_FILE}\033[0m")
     print(f"\033[92mActive Since: \033[97m{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\033[0m")
