@@ -1652,7 +1652,7 @@ def print_banner():
     ║ |_| |_|\___|\__,_|____/|_| |_|_|___/_| |_|                          ║
     ║                                                                      ║
     ║               \033[93mHedshish phisher v3.0\033[96m               ║
-    ║                    \033[90mPhishing Tool made by WastelandX, the author is not responsible for any misuse\033[96m            ║
+    ║                    \033[90Author: WastelandX\033[96m            ║
     ╚══════════════════════════════════════════════════════════════════╝\033[0m
     """
     print(banner)
